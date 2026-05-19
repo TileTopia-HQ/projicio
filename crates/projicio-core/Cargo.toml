@@ -1,0 +1,11 @@
+[package]
+name = "projicio-core"
+description = "Pure-Rust coordinate reference system and map projection engine"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+rust-version.workspace = true
+
+[dependencies]
+thiserror = "2"

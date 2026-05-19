@@ -1,0 +1,16 @@
+[package]
+name = "projicio-cli"
+description = "CLI for the Projicio coordinate transformation library"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+rust-version.workspace = true
+
+[[bin]]
+name = "projicio"
+path = "src/main.rs"
+
+[dependencies]
+projicio-core.workspace = true
+clap = { version = "4", features = ["derive"] }
