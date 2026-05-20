@@ -6,6 +6,7 @@
 mod datum;
 mod ellipsoid;
 mod error;
+mod ntv2;
 mod projection;
 mod transform;
 
@@ -15,6 +16,7 @@ pub use datum::{
 };
 pub use ellipsoid::Ellipsoid;
 pub use error::Error;
+pub use ntv2::{NTv2Grid, SubGrid};
 pub use projection::{
     AlbersEqualArea, LambertConformalConic, Mercator, PolarStereographic, Projection,
     TransverseMercator, WebMercator,
